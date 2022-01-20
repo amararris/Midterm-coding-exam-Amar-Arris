@@ -21,6 +21,66 @@ public class EmployeeInfo {
 	 * declare few static and final fields and some non-static fields
 	 */
 	static String companyName;
+	private String name;
+	private final String dob = "04-14-1977";
+	private String socialSecurityNumber;
+	private String gender;
+	int employeeId;
+	private String emailAddress;
+	private static double salary;
+	private int vacationDays;
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getSocialSecurityNumber() {
+		return socialSecurityNumber;
+	}
+
+	public void setSocialSecurityNumber(String socialSecurityNumber) {
+		this.socialSecurityNumber = socialSecurityNumber;
+	}
+
+	public String getEmailAddress() {
+		return emailAddress;
+	}
+
+	public void setEmailAddress(String emailAddress) {
+		this.emailAddress = emailAddress;
+	}
+
+	public static double getSalary() {
+		return salary;
+	}
+
+	public static void setSalary(double salary) {
+		EmployeeInfo.salary = salary;
+	}
+
+	public int getVacationDays() {
+		return vacationDays;
+	}
+
+	public void setVacationDays(int vacationDays) {
+		this.vacationDays = vacationDays;
+	}
+
+	public String getDob() {
+		return dob;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
 	
 	/*
 	 * You must implement the logic for below 2 methods and 

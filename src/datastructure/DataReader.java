@@ -53,7 +53,7 @@ public class DataReader {
 		}
 
 
-		System.out.println(" using Linked List ");
+		System.out.println(" --------------------using Linked List--------------------- ");
 
 		// Store the text in LinkedList
 		Scanner sc1 = new Scanner(new File("src/data/self-driving-car"));
@@ -74,7 +74,7 @@ public class DataReader {
 		//ConnectToSqlDB.insertDataFromArrayListToSqlTable(list, "store_text_Linked_list", "self-driving-car");
 
 
-		System.out.println("*************** using stack ******************************");
+		System.out.println(" ------------------using stack----------------- ");
 
 		// Store the text in stack
 		Scanner sc2 = new Scanner(new File("src/data/self-driving-car"));

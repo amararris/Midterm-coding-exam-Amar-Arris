@@ -55,7 +55,7 @@ public class UnitTestingMath {
         System.out.println("test passed");
     }
     // Test findLowestDifference method
-    /*@Test
+    @Test
     public void testFindLowestDifference() {
         int [] array1 = {30,12,5,9,2,20,33,1};
         int [] array2 = {18,25,41,47,17,36,14,19};
@@ -63,7 +63,7 @@ public class UnitTestingMath {
         int actualResult = FindLowestDifference.findLowestDifference( array1, array2);
         Assert.assertEquals( expectedResult, actualResult);
             System.out.println("test passed");
-    }*/
+    }
     // Test findMissingNumber method
     @Test
     public void testFindMissingNumber() {
@@ -73,14 +73,14 @@ public class UnitTestingMath {
         Assert.assertEquals( expectedResult, actualResult);
         System.out.println("test passed");
     }
-    /*@Test
+    @Test
     public void testFindLowestNumber() {
         int [] array = {211,110,99,34,67,89,67,456,321,456,78,90,45,32,56,78,90,54,32,123,67,5,679,54,32,65};
         int expectedResult = 5;
         int actualResult = FindLowestNumber.findLowestNumber(array);
         Assert.assertEquals( expectedResult, actualResult);
         System.out.println("test passed");
-    }*/
+    }
 }
 
 

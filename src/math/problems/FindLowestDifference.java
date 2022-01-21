@@ -40,6 +40,9 @@ public class FindLowestDifference {
 
     }
 
+    public static int findLowestDifference(int[] array1, int[] array2) {
+        return 0;
     }
+}
 
 

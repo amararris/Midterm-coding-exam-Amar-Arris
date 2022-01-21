@@ -63,11 +63,13 @@ A. - An array is a collection of elements defined in block with index only, A li
 
 what is the order of complexity?
 A. Order of complexity is a measure of how long an algorithm would take to complete given an input of size n.
-Assuming the input is of size N, we can say that the algorithm will finish at O(N), O(N^2), O(N^3), O(N*log(N)) etc.
+Assuming the input  of size N, we can say that the algorithm will finish at O(N), O(N^2), O(N^3), O(N*log(N)) etc.
 This means that it is a certain mathematical expression of the size of the input, and the algorithm finishes between
 two factors of it. Generally, the smaller the order of complexity of the program's underlying algorithm, the faster
 it will run and the better it will scale as the input gets larger. Thus, we should often seek more efficient
 algorithms in order to reduce the order of complexity.
+
+
 
 what is the best case to search an element from an array?
 A. Sequential search (using map) is the best that we can do when trying to find a value in an unsorted array. But if the array is

@@ -35,8 +35,15 @@ public class Sort {
         final long startTime = System.currentTimeMillis();
         int [] list = array;
         //implement here
-
-
+        for (int i = 0; i < array.length; i++) {
+            int j = i - 1; //-1
+            int point = array[i]; //34
+            while (j >= 0 && array[j] > point) {
+                array[j + 1] = array[j];
+                j = j - 1;
+            }
+            array[j + 1] = point;
+        }
 
         final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;

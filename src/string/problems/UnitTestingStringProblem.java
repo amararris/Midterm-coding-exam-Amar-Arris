@@ -12,7 +12,8 @@ public class UnitTestingStringProblem {
         @Test
         public void testanagram() {
             boolean actualResult = Anagram.isAnagram("cat", "tac");
-            Assert.assertNotEquals("Test Fail", false, actualResult);
+            Assert.assertNotEquals( false, actualResult);
+            System.out.println("test passed");
         }
 
         @Test

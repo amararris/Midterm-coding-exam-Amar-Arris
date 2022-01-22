@@ -14,7 +14,7 @@ public class Anagram {
         public static boolean isAnagram(String str1, String str2) {
         str1 = str1.toLowerCase();
         str2 = str2.toLowerCase();
-        boolean boo;
+        boolean boo = false;
 
         // check if length is same
         if (str1.length() == str2.length()) {
@@ -38,9 +38,6 @@ public class Anagram {
                 boo = false;
                 System.out.println(str1+ " and "+str2+ " are not anagram!");
             }
-        } else {
-            boo = false;
-            System.out.println(str1+ " and "+str2+ " are not anagram!");
         }
         return boo;
 
